@@ -3,8 +3,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 
-class DBSCAN_():
-    
+class DBSCAN():
     def __init__(self, eps = 0.5, min_samples = 4, metric = 'euclidean', dist_matrix = None):
         self.eps = eps
         self.min_samples = min_samples
